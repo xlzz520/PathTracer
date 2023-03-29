@@ -1,0 +1,4 @@
+/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/rebuild_cache.dir
+/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/edit_cache.dir
+/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer.dir
+/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer_autogen.dir
