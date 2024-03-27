@@ -28,7 +28,7 @@ set(LIBRARIES  ${OPENMP_LIBRARIES} ${ASSIMP_LIBRARIES} )
 # Add the list of include paths to be used to search for include files.
 include_directories(${INCLUDE_DIRS})
 
-# 包含 Eigen, igl, spdlog 的头文件
+# 包含  spdlog 的头文件
 include_directories(${PROJECT_SOURCE_DIR}/include)
 include_directories(/opt/homebrew/include)
 
@@ -37,6 +37,13 @@ include_directories(/opt/homebrew/include)
 # Search all the .h files in the directory where CMakeLists lies and set them to ${INCLUDE_FILES}.
 file(GLOB SOURCE_FILES ${PROJECT_SOURCE_DIR}/src/*.cpp) 
 file(GLOB INCLUDE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/include/*.h)
+
+
+# 添加 tinyXml 子目录
+add_subdirectory(${PROJECT_SOURCE_DIR}/include/tinyxml2)
+
+#编译优化
+set(CMAKE_CXX_FLAGS "-O3")
 
 add_executable(PathTracer
     ${SOURCE_FILES} 
@@ -51,4 +58,5 @@ target_link_libraries(
         Qt5::Core
         Qt5::Gui
         Qt5::Widgets
+        tinyxml2
 )

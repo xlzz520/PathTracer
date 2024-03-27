@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/Material.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/Material.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/Material.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/Material.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Material.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -236,9 +236,9 @@ CMakeFiles/PathTracer.dir/src/Material.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/optional \
-  /Users/xlzz/Downloads/PathTracer-master/include/Ray.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/ConfigHelper.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/UtilsHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Ray.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/ConfigHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/UtilsHelper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_fd_def.h \

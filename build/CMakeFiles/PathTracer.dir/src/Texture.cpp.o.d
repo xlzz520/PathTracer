@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/Texture.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/Texture.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/Texture.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/Texture.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Texture.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QImage \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qimage.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
@@ -268,7 +268,7 @@ CMakeFiles/PathTracer.dir/src/Texture.cpp.o: \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qvector3d.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QVector2D \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qvector2d.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/UtilsHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/UtilsHelper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_fd_def.h \
@@ -281,4 +281,4 @@ CMakeFiles/PathTracer.dir/src/Texture.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_fd_zero.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_fd_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_select.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/ConfigHelper.h
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/ConfigHelper.h

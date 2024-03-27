@@ -16,17 +16,20 @@ private:
     // 漫反射系数 镜面反射系数 自发射系数
     QVector3D diffuse, specular, emissive;
     // 透射率 折射系数(针对透明材料)
-    QVector3D transmittance, ior;
+    QVector3D transmittance;
     // 光滑度
-    float shininess;
+    float shininess, ior;
     // 采样阈值（判断是生成漫反射光线还是镜面反射光线）
     float threshold;
+    // 采样阈值方法
+    bool threshold_method;
 
 public:
     Material();
-    Material(const QVector3D &diffuse, const QVector3D &specular, const QVector3D &emissive, const float shininess);
+    Material(const QVector3D &diffuse, const QVector3D &specular, const QVector3D &emissive, const float shininess, const QVector3D transmittance, const float ior, bool threshold_method);
     ~Material();
     QVector3D getEmissive() const;
+    float getIor() const;
     float getThreshold() const;
     // 计算漫反射BRDF，view-independent
     QVector3D diffuseBRDF() const;
@@ -34,13 +37,23 @@ public:
     QVector3D specularBRDF(const QVector3D &reflection, const QVector3D &direction) const;
 
     /**
-     * @brief 根据材料的brdf进行重要性采样
+     * @brief 对玻璃等可折射材料进行简单的理想btdf模拟
+     *
+     * @param normal 输入的法向
+     * @param ray 入射光线
+     * @param direction 输出的光线
+     * @param albedo 类似于理想btdf的btdf*cos/pdf
+     */
+    void refract(const QVector3D &normal, const Ray &ray, QVector3D &direction, QVector3D &albedo) const;
+
+    /**
+     * @brief 根据材料的Phong brdf进行重要性采样
      *
      * @param normal 输入的法线
      * @param reflection 输入的反射光线方向
      * @param color 输入的物体材质
      * @param direction 输出的采样生成出射方向
-     * @param albedo 输出的brdf*cos/pdf
+     * @param albedo 输出的brdf*cos/pdf     *
      */
     void sample(const QVector3D &normal, const QVector3D &reflection, const QVector3D &color, QVector3D &direction, QVector3D &albedo) const;
 };

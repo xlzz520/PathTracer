@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/xlzz/Downloads/PathTracer-master
+CMAKE_SOURCE_DIR = /Users/xlzz/Desktop/cg/wr/PathTracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/xlzz/Downloads/PathTracer-master/build
+CMAKE_BINARY_DIR = /Users/xlzz/Desktop/cg/wr/PathTracer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PathTracer.dir/depend.make
@@ -72,199 +72,199 @@ include CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o: PathTracer_autogen/mocs_compilation.cpp
 CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen/mocs_compilation.cpp
 
 CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen/mocs_compilation.cpp > CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen/mocs_compilation.cpp > CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen/mocs_compilation.cpp -o CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen/mocs_compilation.cpp -o CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/PathTracer.dir/src/AABB.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/AABB.cpp.o: ../src/AABB.cpp
 CMakeFiles/PathTracer.dir/src/AABB.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PathTracer.dir/src/AABB.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/AABB.cpp.o -MF CMakeFiles/PathTracer.dir/src/AABB.cpp.o.d -o CMakeFiles/PathTracer.dir/src/AABB.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/AABB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PathTracer.dir/src/AABB.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/AABB.cpp.o -MF CMakeFiles/PathTracer.dir/src/AABB.cpp.o.d -o CMakeFiles/PathTracer.dir/src/AABB.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/AABB.cpp
 
 CMakeFiles/PathTracer.dir/src/AABB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/AABB.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/AABB.cpp > CMakeFiles/PathTracer.dir/src/AABB.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/AABB.cpp > CMakeFiles/PathTracer.dir/src/AABB.cpp.i
 
 CMakeFiles/PathTracer.dir/src/AABB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/AABB.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/AABB.cpp -o CMakeFiles/PathTracer.dir/src/AABB.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/AABB.cpp -o CMakeFiles/PathTracer.dir/src/AABB.cpp.s
 
 CMakeFiles/PathTracer.dir/src/BVH.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/BVH.cpp.o: ../src/BVH.cpp
 CMakeFiles/PathTracer.dir/src/BVH.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PathTracer.dir/src/BVH.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/BVH.cpp.o -MF CMakeFiles/PathTracer.dir/src/BVH.cpp.o.d -o CMakeFiles/PathTracer.dir/src/BVH.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/BVH.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PathTracer.dir/src/BVH.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/BVH.cpp.o -MF CMakeFiles/PathTracer.dir/src/BVH.cpp.o.d -o CMakeFiles/PathTracer.dir/src/BVH.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/BVH.cpp
 
 CMakeFiles/PathTracer.dir/src/BVH.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/BVH.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/BVH.cpp > CMakeFiles/PathTracer.dir/src/BVH.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/BVH.cpp > CMakeFiles/PathTracer.dir/src/BVH.cpp.i
 
 CMakeFiles/PathTracer.dir/src/BVH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/BVH.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/BVH.cpp -o CMakeFiles/PathTracer.dir/src/BVH.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/BVH.cpp -o CMakeFiles/PathTracer.dir/src/BVH.cpp.s
 
-CMakeFiles/PathTracer.dir/src/Environment.cpp.o: CMakeFiles/PathTracer.dir/flags.make
-CMakeFiles/PathTracer.dir/src/Environment.cpp.o: ../src/Environment.cpp
-CMakeFiles/PathTracer.dir/src/Environment.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PathTracer.dir/src/Environment.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Environment.cpp.o -MF CMakeFiles/PathTracer.dir/src/Environment.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Environment.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Environment.cpp
+CMakeFiles/PathTracer.dir/src/Displayer.cpp.o: CMakeFiles/PathTracer.dir/flags.make
+CMakeFiles/PathTracer.dir/src/Displayer.cpp.o: ../src/Displayer.cpp
+CMakeFiles/PathTracer.dir/src/Displayer.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PathTracer.dir/src/Displayer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Displayer.cpp.o -MF CMakeFiles/PathTracer.dir/src/Displayer.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Displayer.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Displayer.cpp
 
-CMakeFiles/PathTracer.dir/src/Environment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Environment.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Environment.cpp > CMakeFiles/PathTracer.dir/src/Environment.cpp.i
+CMakeFiles/PathTracer.dir/src/Displayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Displayer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Displayer.cpp > CMakeFiles/PathTracer.dir/src/Displayer.cpp.i
 
-CMakeFiles/PathTracer.dir/src/Environment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Environment.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Environment.cpp -o CMakeFiles/PathTracer.dir/src/Environment.cpp.s
+CMakeFiles/PathTracer.dir/src/Displayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Displayer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Displayer.cpp -o CMakeFiles/PathTracer.dir/src/Displayer.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Material.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Material.cpp.o: ../src/Material.cpp
 CMakeFiles/PathTracer.dir/src/Material.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PathTracer.dir/src/Material.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Material.cpp.o -MF CMakeFiles/PathTracer.dir/src/Material.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Material.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Material.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PathTracer.dir/src/Material.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Material.cpp.o -MF CMakeFiles/PathTracer.dir/src/Material.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Material.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Material.cpp
 
 CMakeFiles/PathTracer.dir/src/Material.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Material.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Material.cpp > CMakeFiles/PathTracer.dir/src/Material.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Material.cpp > CMakeFiles/PathTracer.dir/src/Material.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Material.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Material.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Material.cpp -o CMakeFiles/PathTracer.dir/src/Material.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Material.cpp -o CMakeFiles/PathTracer.dir/src/Material.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Mesh.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Mesh.cpp.o: ../src/Mesh.cpp
 CMakeFiles/PathTracer.dir/src/Mesh.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PathTracer.dir/src/Mesh.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Mesh.cpp.o -MF CMakeFiles/PathTracer.dir/src/Mesh.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Mesh.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PathTracer.dir/src/Mesh.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Mesh.cpp.o -MF CMakeFiles/PathTracer.dir/src/Mesh.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Mesh.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Mesh.cpp
 
 CMakeFiles/PathTracer.dir/src/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Mesh.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Mesh.cpp > CMakeFiles/PathTracer.dir/src/Mesh.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Mesh.cpp > CMakeFiles/PathTracer.dir/src/Mesh.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Mesh.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Mesh.cpp -o CMakeFiles/PathTracer.dir/src/Mesh.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Mesh.cpp -o CMakeFiles/PathTracer.dir/src/Mesh.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Point.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Point.cpp.o: ../src/Point.cpp
 CMakeFiles/PathTracer.dir/src/Point.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PathTracer.dir/src/Point.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Point.cpp.o -MF CMakeFiles/PathTracer.dir/src/Point.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Point.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PathTracer.dir/src/Point.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Point.cpp.o -MF CMakeFiles/PathTracer.dir/src/Point.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Point.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Point.cpp
 
 CMakeFiles/PathTracer.dir/src/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Point.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Point.cpp > CMakeFiles/PathTracer.dir/src/Point.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Point.cpp > CMakeFiles/PathTracer.dir/src/Point.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Point.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Point.cpp -o CMakeFiles/PathTracer.dir/src/Point.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Point.cpp -o CMakeFiles/PathTracer.dir/src/Point.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Ray.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Ray.cpp.o: ../src/Ray.cpp
 CMakeFiles/PathTracer.dir/src/Ray.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PathTracer.dir/src/Ray.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Ray.cpp.o -MF CMakeFiles/PathTracer.dir/src/Ray.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Ray.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Ray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PathTracer.dir/src/Ray.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Ray.cpp.o -MF CMakeFiles/PathTracer.dir/src/Ray.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Ray.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Ray.cpp
 
 CMakeFiles/PathTracer.dir/src/Ray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Ray.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Ray.cpp > CMakeFiles/PathTracer.dir/src/Ray.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Ray.cpp > CMakeFiles/PathTracer.dir/src/Ray.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Ray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Ray.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Ray.cpp -o CMakeFiles/PathTracer.dir/src/Ray.cpp.s
-
-CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o: CMakeFiles/PathTracer.dir/flags.make
-CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o: ../src/RenderWidget.cpp
-CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o -MF CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o.d -o CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/RenderWidget.cpp
-
-CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/RenderWidget.cpp > CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.i
-
-CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/RenderWidget.cpp -o CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Ray.cpp -o CMakeFiles/PathTracer.dir/src/Ray.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Scene.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Scene.cpp.o: ../src/Scene.cpp
 CMakeFiles/PathTracer.dir/src/Scene.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PathTracer.dir/src/Scene.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Scene.cpp.o -MF CMakeFiles/PathTracer.dir/src/Scene.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Scene.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/PathTracer.dir/src/Scene.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Scene.cpp.o -MF CMakeFiles/PathTracer.dir/src/Scene.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Scene.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Scene.cpp
 
 CMakeFiles/PathTracer.dir/src/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Scene.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Scene.cpp > CMakeFiles/PathTracer.dir/src/Scene.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Scene.cpp > CMakeFiles/PathTracer.dir/src/Scene.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Scene.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Scene.cpp -o CMakeFiles/PathTracer.dir/src/Scene.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Scene.cpp -o CMakeFiles/PathTracer.dir/src/Scene.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Texture.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Texture.cpp.o: ../src/Texture.cpp
 CMakeFiles/PathTracer.dir/src/Texture.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PathTracer.dir/src/Texture.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Texture.cpp.o -MF CMakeFiles/PathTracer.dir/src/Texture.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Texture.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/PathTracer.dir/src/Texture.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Texture.cpp.o -MF CMakeFiles/PathTracer.dir/src/Texture.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Texture.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Texture.cpp
 
 CMakeFiles/PathTracer.dir/src/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Texture.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Texture.cpp > CMakeFiles/PathTracer.dir/src/Texture.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Texture.cpp > CMakeFiles/PathTracer.dir/src/Texture.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Texture.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Texture.cpp -o CMakeFiles/PathTracer.dir/src/Texture.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Texture.cpp -o CMakeFiles/PathTracer.dir/src/Texture.cpp.s
 
 CMakeFiles/PathTracer.dir/src/Triangle.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/Triangle.cpp.o: ../src/Triangle.cpp
 CMakeFiles/PathTracer.dir/src/Triangle.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PathTracer.dir/src/Triangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Triangle.cpp.o -MF CMakeFiles/PathTracer.dir/src/Triangle.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Triangle.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/PathTracer.dir/src/Triangle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/Triangle.cpp.o -MF CMakeFiles/PathTracer.dir/src/Triangle.cpp.o.d -o CMakeFiles/PathTracer.dir/src/Triangle.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/Triangle.cpp
 
 CMakeFiles/PathTracer.dir/src/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/Triangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/Triangle.cpp > CMakeFiles/PathTracer.dir/src/Triangle.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/Triangle.cpp > CMakeFiles/PathTracer.dir/src/Triangle.cpp.i
 
 CMakeFiles/PathTracer.dir/src/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/Triangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/Triangle.cpp -o CMakeFiles/PathTracer.dir/src/Triangle.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/Triangle.cpp -o CMakeFiles/PathTracer.dir/src/Triangle.cpp.s
+
+CMakeFiles/PathTracer.dir/src/camera.cpp.o: CMakeFiles/PathTracer.dir/flags.make
+CMakeFiles/PathTracer.dir/src/camera.cpp.o: ../src/camera.cpp
+CMakeFiles/PathTracer.dir/src/camera.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/PathTracer.dir/src/camera.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/camera.cpp.o -MF CMakeFiles/PathTracer.dir/src/camera.cpp.o.d -o CMakeFiles/PathTracer.dir/src/camera.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/camera.cpp
+
+CMakeFiles/PathTracer.dir/src/camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/camera.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/camera.cpp > CMakeFiles/PathTracer.dir/src/camera.cpp.i
+
+CMakeFiles/PathTracer.dir/src/camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/camera.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/camera.cpp -o CMakeFiles/PathTracer.dir/src/camera.cpp.s
 
 CMakeFiles/PathTracer.dir/src/main.cpp.o: CMakeFiles/PathTracer.dir/flags.make
 CMakeFiles/PathTracer.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/PathTracer.dir/src/main.cpp.o: CMakeFiles/PathTracer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PathTracer.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/main.cpp.o -MF CMakeFiles/PathTracer.dir/src/main.cpp.o.d -o CMakeFiles/PathTracer.dir/src/main.cpp.o -c /Users/xlzz/Downloads/PathTracer-master/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/PathTracer.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PathTracer.dir/src/main.cpp.o -MF CMakeFiles/PathTracer.dir/src/main.cpp.o.d -o CMakeFiles/PathTracer.dir/src/main.cpp.o -c /Users/xlzz/Desktop/cg/wr/PathTracer/src/main.cpp
 
 CMakeFiles/PathTracer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PathTracer.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Downloads/PathTracer-master/src/main.cpp > CMakeFiles/PathTracer.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xlzz/Desktop/cg/wr/PathTracer/src/main.cpp > CMakeFiles/PathTracer.dir/src/main.cpp.i
 
 CMakeFiles/PathTracer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PathTracer.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Downloads/PathTracer-master/src/main.cpp -o CMakeFiles/PathTracer.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xlzz/Desktop/cg/wr/PathTracer/src/main.cpp -o CMakeFiles/PathTracer.dir/src/main.cpp.s
 
 # Object files for target PathTracer
 PathTracer_OBJECTS = \
 "CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/AABB.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/BVH.cpp.o" \
-"CMakeFiles/PathTracer.dir/src/Environment.cpp.o" \
+"CMakeFiles/PathTracer.dir/src/Displayer.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Material.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Mesh.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Point.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Ray.cpp.o" \
-"CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Scene.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Texture.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/Triangle.cpp.o" \
+"CMakeFiles/PathTracer.dir/src/camera.cpp.o" \
 "CMakeFiles/PathTracer.dir/src/main.cpp.o"
 
 # External object files for target PathTracer
@@ -273,24 +273,25 @@ PathTracer_EXTERNAL_OBJECTS =
 PathTracer: CMakeFiles/PathTracer.dir/PathTracer_autogen/mocs_compilation.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/AABB.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/BVH.cpp.o
-PathTracer: CMakeFiles/PathTracer.dir/src/Environment.cpp.o
+PathTracer: CMakeFiles/PathTracer.dir/src/Displayer.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Material.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Mesh.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Point.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Ray.cpp.o
-PathTracer: CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Scene.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Texture.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/Triangle.cpp.o
+PathTracer: CMakeFiles/PathTracer.dir/src/camera.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/src/main.cpp.o
 PathTracer: CMakeFiles/PathTracer.dir/build.make
 PathTracer: /opt/homebrew/lib/libassimp.5.2.0.dylib
 PathTracer: /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtWidgets.framework/QtWidgets
+PathTracer: include/tinyxml2/libtinyxml2.a
 PathTracer: /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib/libz.tbd
 PathTracer: /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/QtGui
 PathTracer: /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtCore.framework/QtCore
 PathTracer: CMakeFiles/PathTracer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable PathTracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable PathTracer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PathTracer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -302,6 +303,6 @@ CMakeFiles/PathTracer.dir/clean:
 .PHONY : CMakeFiles/PathTracer.dir/clean
 
 CMakeFiles/PathTracer.dir/depend:
-	cd /Users/xlzz/Downloads/PathTracer-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xlzz/Downloads/PathTracer-master /Users/xlzz/Downloads/PathTracer-master /Users/xlzz/Downloads/PathTracer-master/build /Users/xlzz/Downloads/PathTracer-master/build /Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/xlzz/Desktop/cg/wr/PathTracer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xlzz/Desktop/cg/wr/PathTracer /Users/xlzz/Desktop/cg/wr/PathTracer /Users/xlzz/Desktop/cg/wr/PathTracer/build /Users/xlzz/Desktop/cg/wr/PathTracer/build /Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PathTracer.dir/depend
 

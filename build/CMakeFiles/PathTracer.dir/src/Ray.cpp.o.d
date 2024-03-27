@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/Ray.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/Ray.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/Ray.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/Ray.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Ray.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QVector3D \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qvector3d.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \

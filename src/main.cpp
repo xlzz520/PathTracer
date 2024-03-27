@@ -1,11 +1,11 @@
 #include <QApplication>
 
-#include "RenderWidget.h"
+#include "Displayer.h"
 
 int main(int argc, char **argv) {
-    
+
     QApplication application(argc, argv);
-    RenderWidget renderer;
+    Displayer renderer;
     renderer.show();
 
     return QApplication::exec();

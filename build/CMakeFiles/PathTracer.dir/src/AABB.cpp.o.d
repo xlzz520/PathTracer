@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/AABB.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/AABB.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/AABB.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/AABB.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/AABB.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cfloat \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -240,5 +240,5 @@ CMakeFiles/PathTracer.dir/src/AABB.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__tree \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__node_handle \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/optional \
-  /Users/xlzz/Downloads/PathTracer-master/include/ConfigHelper.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Ray.h
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/ConfigHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Ray.h

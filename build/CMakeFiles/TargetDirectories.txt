@@ -1,4 +1,8 @@
-/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/rebuild_cache.dir
-/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/edit_cache.dir
-/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer.dir
-/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer_autogen.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/rebuild_cache.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/edit_cache.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer_autogen.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/include/tinyxml2/CMakeFiles/rebuild_cache.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/include/tinyxml2/CMakeFiles/edit_cache.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/include/tinyxml2/CMakeFiles/tinyxml2.dir
+/Users/xlzz/Desktop/cg/wr/PathTracer/build/include/tinyxml2/CMakeFiles/tinyxml2_autogen.dir

@@ -37,7 +37,7 @@ static QColor vectorToColor(const QVector3D &vector)
     int r = std::min((int)(std::pow(vector.x(), 1.0f / GAMMA) * 255), 255);
     int g = std::min((int)(std::pow(vector.y(), 1.0f / GAMMA) * 255), 255);
     int b = std::min((int)(std::pow(vector.z(), 1.0f / GAMMA) * 255), 255);
-
+    
     return QColor(r, g, b);
 }
 

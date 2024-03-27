@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/xlzz/Downloads/PathTracer-master/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/xlzz/Downloads/PathTracer-master/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/xlzz/Downloads/PathTracer-master",
+	"BUILD_DIR" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/xlzz/Desktop/cg/wr/PathTracer",
 	"CMAKE_EXECUTABLE" : "/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/xlzz/Downloads/PathTracer-master/CMakeLists.txt",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/CMakeLists.txt",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeSystem.cmake.in",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/3.21.4/CMakeSystem.cmake",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/3.21.4/CMakeSystem.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeUnixFindMake.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
@@ -94,7 +94,7 @@
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeFindBinUtils.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -122,15 +122,15 @@
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/Internal/FeatureTesting.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/3.21.4/CMakeCXXCompiler.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/FindOpenMP.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/FindPackageHandleStandardArgs.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/FindPackageMessage.cmake",
-		"/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp",
 		"/opt/homebrew/lib/cmake/assimp-5.2/assimpConfigVersion.cmake",
 		"/opt/homebrew/lib/cmake/assimp-5.2/assimpConfig.cmake",
 		"/opt/homebrew/lib/cmake/assimp-5.2/assimpTargets.cmake",
@@ -173,93 +173,93 @@
 		"/opt/homebrew/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeParseArguments.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/xlzz/Downloads/PathTracer-master",
+	"CMAKE_SOURCE_DIR" : "/Users/xlzz/Desktop/cg/wr/PathTracer",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/AABB.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/AABB.h",
 			"Mu",
 			"6YEA5652QU/moc_AABB.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/BVH.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/BVH.h",
 			"Mu",
 			"6YEA5652QU/moc_BVH.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/ConfigHelper.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/ConfigHelper.h",
 			"Mu",
 			"6YEA5652QU/moc_ConfigHelper.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Environment.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Displayer.h",
 			"Mu",
-			"6YEA5652QU/moc_Environment.cpp",
+			"6YEA5652QU/moc_Displayer.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Material.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Material.h",
 			"Mu",
 			"6YEA5652QU/moc_Material.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Mesh.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Mesh.h",
 			"Mu",
 			"6YEA5652QU/moc_Mesh.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Point.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Point.h",
 			"Mu",
 			"6YEA5652QU/moc_Point.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Ray.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Ray.h",
 			"Mu",
 			"6YEA5652QU/moc_Ray.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/RenderWidget.h",
-			"Mu",
-			"6YEA5652QU/moc_RenderWidget.cpp",
-			null
-		],
-		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Scene.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Scene.h",
 			"Mu",
 			"6YEA5652QU/moc_Scene.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Texture.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Texture.h",
 			"Mu",
 			"6YEA5652QU/moc_Texture.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/Triangle.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/Triangle.h",
 			"Mu",
 			"6YEA5652QU/moc_Triangle.cpp",
 			null
 		],
 		[
-			"/Users/xlzz/Downloads/PathTracer-master/include/UtilsHelper.h",
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/UtilsHelper.h",
 			"Mu",
 			"6YEA5652QU/moc_UtilsHelper.cpp",
+			null
+		],
+		[
+			"/Users/xlzz/Desktop/cg/wr/PathTracer/include/camera.h",
+			"Mu",
+			"6YEA5652QU/moc_camera.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -270,7 +270,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/xlzz/Downloads/PathTracer-master/include",
+		"/Users/xlzz/Desktop/cg/wr/PathTracer/include",
 		"/opt/homebrew/include",
 		"/opt/homebrew/Cellar/qt@5/5.15.3/lib/QtCore.framework",
 		"/opt/homebrew/Cellar/qt@5/5.15.3/lib/QtCore.framework/Headers",
@@ -296,47 +296,31 @@
 		"-c",
 		"/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/xlzz/Downloads/PathTracer-master/build/PathTracer_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build/PathTracer_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/opt/homebrew/Cellar/qt@5/5.15.3/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/AABB.cpp", "Mu", null ],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/BVH.cpp", "Mu", null ],
-		[
-			"/Users/xlzz/Downloads/PathTracer-master/src/Environment.cpp",
-			"Mu",
-			null
-		],
-		[
-			"/Users/xlzz/Downloads/PathTracer-master/src/Material.cpp",
-			"Mu",
-			null
-		],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/Mesh.cpp", "Mu", null ],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/Point.cpp", "Mu", null ],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/Ray.cpp", "Mu", null ],
-		[
-			"/Users/xlzz/Downloads/PathTracer-master/src/RenderWidget.cpp",
-			"Mu",
-			null
-		],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/Scene.cpp", "Mu", null ],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/Texture.cpp", "Mu", null ],
-		[
-			"/Users/xlzz/Downloads/PathTracer-master/src/Triangle.cpp",
-			"Mu",
-			null
-		],
-		[ "/Users/xlzz/Downloads/PathTracer-master/src/main.cpp", "Mu", null ]
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/AABB.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/BVH.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Displayer.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Material.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Mesh.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Point.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Ray.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Scene.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Texture.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/Triangle.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/camera.cpp", "Mu", null ],
+		[ "/Users/xlzz/Desktop/cg/wr/PathTracer/src/main.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/xlzz/Downloads/PathTracer-master
+CMAKE_SOURCE_DIR = /Users/xlzz/Desktop/cg/wr/PathTracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/xlzz/Downloads/PathTracer-master/build
+CMAKE_BINARY_DIR = /Users/xlzz/Desktop/cg/wr/PathTracer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles /Users/xlzz/Downloads/PathTracer-master/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles /Users/xlzz/Desktop/cg/wr/PathTracer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,32 @@ PathTracer_autogen: cmake_check_build_system
 PathTracer_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer_autogen.dir/build.make CMakeFiles/PathTracer_autogen.dir/build
 .PHONY : PathTracer_autogen/fast
+
+#=============================================================================
+# Target rules for targets named tinyxml2
+
+# Build rule for target.
+tinyxml2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tinyxml2
+.PHONY : tinyxml2
+
+# fast build rule for target.
+tinyxml2/fast:
+	$(MAKE) $(MAKESILENT) -f include/tinyxml2/CMakeFiles/tinyxml2.dir/build.make include/tinyxml2/CMakeFiles/tinyxml2.dir/build
+.PHONY : tinyxml2/fast
+
+#=============================================================================
+# Target rules for targets named tinyxml2_autogen
+
+# Build rule for target.
+tinyxml2_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tinyxml2_autogen
+.PHONY : tinyxml2_autogen
+
+# fast build rule for target.
+tinyxml2_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f include/tinyxml2/CMakeFiles/tinyxml2_autogen.dir/build.make include/tinyxml2/CMakeFiles/tinyxml2_autogen.dir/build
+.PHONY : tinyxml2_autogen/fast
 
 PathTracer_autogen/mocs_compilation.o: PathTracer_autogen/mocs_compilation.cpp.o
 .PHONY : PathTracer_autogen/mocs_compilation.o
@@ -214,29 +240,29 @@ src/BVH.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/BVH.cpp.s
 .PHONY : src/BVH.cpp.s
 
-src/Environment.o: src/Environment.cpp.o
-.PHONY : src/Environment.o
+src/Displayer.o: src/Displayer.cpp.o
+.PHONY : src/Displayer.o
 
 # target to build an object file
-src/Environment.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Environment.cpp.o
-.PHONY : src/Environment.cpp.o
+src/Displayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Displayer.cpp.o
+.PHONY : src/Displayer.cpp.o
 
-src/Environment.i: src/Environment.cpp.i
-.PHONY : src/Environment.i
+src/Displayer.i: src/Displayer.cpp.i
+.PHONY : src/Displayer.i
 
 # target to preprocess a source file
-src/Environment.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Environment.cpp.i
-.PHONY : src/Environment.cpp.i
+src/Displayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Displayer.cpp.i
+.PHONY : src/Displayer.cpp.i
 
-src/Environment.s: src/Environment.cpp.s
-.PHONY : src/Environment.s
+src/Displayer.s: src/Displayer.cpp.s
+.PHONY : src/Displayer.s
 
 # target to generate assembly for a file
-src/Environment.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Environment.cpp.s
-.PHONY : src/Environment.cpp.s
+src/Displayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Displayer.cpp.s
+.PHONY : src/Displayer.cpp.s
 
 src/Material.o: src/Material.cpp.o
 .PHONY : src/Material.o
@@ -334,30 +360,6 @@ src/Ray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Ray.cpp.s
 .PHONY : src/Ray.cpp.s
 
-src/RenderWidget.o: src/RenderWidget.cpp.o
-.PHONY : src/RenderWidget.o
-
-# target to build an object file
-src/RenderWidget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.o
-.PHONY : src/RenderWidget.cpp.o
-
-src/RenderWidget.i: src/RenderWidget.cpp.i
-.PHONY : src/RenderWidget.i
-
-# target to preprocess a source file
-src/RenderWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.i
-.PHONY : src/RenderWidget.cpp.i
-
-src/RenderWidget.s: src/RenderWidget.cpp.s
-.PHONY : src/RenderWidget.s
-
-# target to generate assembly for a file
-src/RenderWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/RenderWidget.cpp.s
-.PHONY : src/RenderWidget.cpp.s
-
 src/Scene.o: src/Scene.cpp.o
 .PHONY : src/Scene.o
 
@@ -430,6 +432,30 @@ src/Triangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/Triangle.cpp.s
 .PHONY : src/Triangle.cpp.s
 
+src/camera.o: src/camera.cpp.o
+.PHONY : src/camera.o
+
+# target to build an object file
+src/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/camera.cpp.o
+.PHONY : src/camera.cpp.o
+
+src/camera.i: src/camera.cpp.i
+.PHONY : src/camera.i
+
+# target to preprocess a source file
+src/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/camera.cpp.i
+.PHONY : src/camera.cpp.i
+
+src/camera.s: src/camera.cpp.s
+.PHONY : src/camera.s
+
+# target to generate assembly for a file
+src/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PathTracer.dir/build.make CMakeFiles/PathTracer.dir/src/camera.cpp.s
+.PHONY : src/camera.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -463,7 +489,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PathTracer_autogen"
+	@echo "... tinyxml2_autogen"
 	@echo "... PathTracer"
+	@echo "... tinyxml2"
 	@echo "... PathTracer_autogen/mocs_compilation.o"
 	@echo "... PathTracer_autogen/mocs_compilation.i"
 	@echo "... PathTracer_autogen/mocs_compilation.s"
@@ -473,9 +501,9 @@ help:
 	@echo "... src/BVH.o"
 	@echo "... src/BVH.i"
 	@echo "... src/BVH.s"
-	@echo "... src/Environment.o"
-	@echo "... src/Environment.i"
-	@echo "... src/Environment.s"
+	@echo "... src/Displayer.o"
+	@echo "... src/Displayer.i"
+	@echo "... src/Displayer.s"
 	@echo "... src/Material.o"
 	@echo "... src/Material.i"
 	@echo "... src/Material.s"
@@ -488,9 +516,6 @@ help:
 	@echo "... src/Ray.o"
 	@echo "... src/Ray.i"
 	@echo "... src/Ray.s"
-	@echo "... src/RenderWidget.o"
-	@echo "... src/RenderWidget.i"
-	@echo "... src/RenderWidget.s"
 	@echo "... src/Scene.o"
 	@echo "... src/Scene.i"
 	@echo "... src/Scene.s"
@@ -500,6 +525,9 @@ help:
 	@echo "... src/Triangle.o"
 	@echo "... src/Triangle.i"
 	@echo "... src/Triangle.s"
+	@echo "... src/camera.o"
+	@echo "... src/camera.i"
+	@echo "... src/camera.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

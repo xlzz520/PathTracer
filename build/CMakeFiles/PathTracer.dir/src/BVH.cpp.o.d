@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/BVH.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/BVH.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/BVH.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/BVH.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/BVH.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cfloat \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -173,11 +173,11 @@ CMakeFiles/PathTracer.dir/src/BVH.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__bit_reference \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/xlzz/Downloads/PathTracer-master/include/ConfigHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/ConfigHelper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/math.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Point.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Point.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QVector3D \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qvector3d.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
@@ -244,8 +244,8 @@ CMakeFiles/PathTracer.dir/src/BVH.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/optional \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QVector2D \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qvector2d.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Triangle.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/UtilsHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Triangle.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/UtilsHelper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_fd_def.h \
@@ -269,5 +269,5 @@ CMakeFiles/PathTracer.dir/src/BVH.cpp.o: \
   /opt/homebrew/include/QtCore/qregexp.h \
   /opt/homebrew/include/QtCore/qstringmatcher.h \
   /opt/homebrew/include/QtGui/qrgba64.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/AABB.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Ray.h
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/AABB.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Ray.h

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/xlzz/Downloads/PathTracer-master
+CMAKE_SOURCE_DIR = /Users/xlzz/Desktop/cg/wr/PathTracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/xlzz/Downloads/PathTracer-master/build
+CMAKE_BINARY_DIR = /Users/xlzz/Desktop/cg/wr/PathTracer/build
 
 # Utility rule file for PathTracer_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/PathTracer_autogen.dir/compiler_depend.make
 include CMakeFiles/PathTracer_autogen.dir/progress.make
 
 CMakeFiles/PathTracer_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target PathTracer"
-	/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_autogen /Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target PathTracer"
+	/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_autogen /Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer_autogen.dir/AutogenInfo.json ""
 
 PathTracer_autogen: CMakeFiles/PathTracer_autogen
 PathTracer_autogen: CMakeFiles/PathTracer_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/PathTracer_autogen.dir/clean:
 .PHONY : CMakeFiles/PathTracer_autogen.dir/clean
 
 CMakeFiles/PathTracer_autogen.dir/depend:
-	cd /Users/xlzz/Downloads/PathTracer-master/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xlzz/Downloads/PathTracer-master /Users/xlzz/Downloads/PathTracer-master /Users/xlzz/Downloads/PathTracer-master/build /Users/xlzz/Downloads/PathTracer-master/build /Users/xlzz/Downloads/PathTracer-master/build/CMakeFiles/PathTracer_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/xlzz/Desktop/cg/wr/PathTracer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/xlzz/Desktop/cg/wr/PathTracer /Users/xlzz/Desktop/cg/wr/PathTracer /Users/xlzz/Desktop/cg/wr/PathTracer/build /Users/xlzz/Desktop/cg/wr/PathTracer/build /Users/xlzz/Desktop/cg/wr/PathTracer/build/CMakeFiles/PathTracer_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PathTracer_autogen.dir/depend
 

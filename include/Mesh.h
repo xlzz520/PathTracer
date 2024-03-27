@@ -2,7 +2,7 @@
 #define MESH_H
 
 #include <vector>
-
+#include <iostream>
 #include "UtilsHelper.h"
 #include "Point.h"
 #include "Triangle.h"
@@ -40,7 +40,7 @@ public:
     //光线与物体网格进行截交计算
     void trace(const Ray &ray, float &t, Point &point) const;
     //对物体进行采样（用于光源采样）
-    Point sample() const;
+    Point sample(Point point) const;
 };
 
 #endif

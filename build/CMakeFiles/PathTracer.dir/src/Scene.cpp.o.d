@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/Scene.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/Scene.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/Scene.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/Scene.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Scene.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cfloat \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/pthread.h \
@@ -270,6 +270,7 @@ CMakeFiles/PathTracer.dir/src/Scene.cpp.o: \
   /opt/homebrew/include/assimp/anim.h \
   /opt/homebrew/include/assimp/metadata.h \
   /opt/homebrew/include/assimp/postprocess.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/tinyxml2/tinyxml2.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/include/QtCore/qchar.h \
@@ -351,47 +352,78 @@ CMakeFiles/PathTracer.dir/src/Scene.cpp.o: \
   /opt/homebrew/include/QtCore/qobject.h \
   /opt/homebrew/include/QtCore/qobject_impl.h \
   /opt/homebrew/include/QtCore/qline.h \
+  /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QImageReader \
+  /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qimagereader.h \
+  /opt/homebrew/include/QtCore/qcoreapplication.h \
+  /opt/homebrew/include/QtCore/qcoreevent.h \
+  /opt/homebrew/include/QtCore/qeventloop.h \
+  /opt/homebrew/include/QtGui/qimage.h \
+  /opt/homebrew/include/QtGui/qimageiohandler.h \
+  /opt/homebrew/include/QtCore/qplugin.h \
+  /opt/homebrew/include/QtCore/qpointer.h \
+  /opt/homebrew/include/QtCore/qsharedpointer.h \
+  /opt/homebrew/include/QtCore/qshareddata.h \
+  /opt/homebrew/include/QtCore/qhash.h \
+  /opt/homebrew/include/QtCore/qsharedpointer_impl.h \
+  /opt/homebrew/include/QtCore/qjsonobject.h \
+  /opt/homebrew/include/QtCore/qjsonvalue.h \
+  /opt/homebrew/include/QtCore/qcborvalue.h \
+  /opt/homebrew/include/QtCore/qdatetime.h \
+  /opt/homebrew/include/QtCore/qcborcommon.h \
+  /opt/homebrew/include/QtCore/qdebug.h \
+  /opt/homebrew/include/QtCore/qmap.h \
+  /opt/homebrew/include/QtCore/qtextstream.h \
+  /opt/homebrew/include/QtCore/qlocale.h \
+  /opt/homebrew/include/QtCore/qvariant.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/variant \
+  /opt/homebrew/include/QtCore/qset.h \
+  /opt/homebrew/include/QtCore/qcontiguouscache.h \
+  /opt/homebrew/include/QtCore/qregularexpression.h \
+  /opt/homebrew/include/QtCore/qurl.h \
+  /opt/homebrew/include/QtCore/quuid.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/compare \
+  /opt/homebrew/include/QtCore/qfactoryinterface.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QColor \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qcolor.h \
   /opt/homebrew/include/omp.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/ConfigHelper.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/UtilsHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/ConfigHelper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/UtilsHelper.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/random \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/time.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_timeval64.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_select.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Point.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Triangle.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/AABB.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Ray.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Material.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Texture.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Mesh.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/BVH.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/Environment.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/spdlog.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/common.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/tweakme.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/null_mutex.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/fmt/fmt.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/fmt/bundled/core.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/fmt/bundled/format.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/fmt/bundled/format-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Point.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Triangle.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/AABB.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Ray.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Material.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Texture.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Mesh.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/BVH.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/camera.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/spdlog.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/common.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/tweakme.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/null_mutex.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/fmt/fmt.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/fmt/bundled/core.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/fmt/bundled/format.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/fmt/bundled/format-inl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/cstdarg \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/common-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/registry.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/periodic_worker.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/common-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/registry.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/periodic_worker.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/thread \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/periodic_worker-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/periodic_worker-inl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/unordered_map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__hash_table \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/registry-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/logger.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/log_msg.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/log_msg-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/os.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/os-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/registry-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/logger.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/log_msg.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/log_msg-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/os.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/os-inl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/stat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_s_ifmt.h \
@@ -407,21 +439,21 @@ CMakeFiles/PathTracer.dir/src/Scene.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/include/gethostuuid.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/backtracer.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/log_msg_buffer.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/log_msg_buffer-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/circular_q.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/backtracer-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/logger-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/sinks/sink.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/formatter.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/sinks/sink-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/pattern_formatter.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/pattern_formatter-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/fmt_helper.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/sinks/ansicolor_sink.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/console_globals.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/sinks/ansicolor_sink-inl.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/version.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/details/synchronous_factory.h \
-  /Users/xlzz/Downloads/PathTracer-master/include/spdlog/spdlog-inl.h
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/backtracer.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/log_msg_buffer.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/log_msg_buffer-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/circular_q.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/backtracer-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/logger-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/sinks/sink.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/formatter.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/sinks/sink-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/pattern_formatter.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/pattern_formatter-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/fmt_helper.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/sinks/ansicolor_sink.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/console_globals.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/sinks/ansicolor_sink-inl.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/version.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/details/synchronous_factory.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/spdlog/spdlog-inl.h

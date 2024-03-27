@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.4/CMakeSystem.cmake"
   "CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
   "CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp"
+  "../include/tinyxml2/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
   "/opt/homebrew/Cellar/cmake/3.21.4/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -140,10 +141,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.21.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/PathTracer_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/tinyxml2/CMakeFiles/tinyxml2_autogen.dir/AutogenInfo.json"
+  "include/tinyxml2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PathTracer.dir/DependInfo.cmake"
   "CMakeFiles/PathTracer_autogen.dir/DependInfo.cmake"
+  "include/tinyxml2/CMakeFiles/tinyxml2.dir/DependInfo.cmake"
+  "include/tinyxml2/CMakeFiles/tinyxml2_autogen.dir/DependInfo.cmake"
   )

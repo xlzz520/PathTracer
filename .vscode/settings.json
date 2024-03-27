@@ -90,6 +90,8 @@
         "variant": "cpp",
         "*.tcc": "cpp",
         "filesystem": "cpp",
-        "cfloat": "cpp"
+        "cfloat": "cpp",
+        "csignal": "cpp",
+        "valarray": "cpp"
     }
 }

@@ -1,6 +1,6 @@
 CMakeFiles/PathTracer.dir/src/Point.cpp.o: \
-  /Users/xlzz/Downloads/PathTracer-master/src/Point.cpp \
-  /Users/xlzz/Downloads/PathTracer-master/include/Point.h \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/src/Point.cpp \
+  /Users/xlzz/Desktop/cg/wr/PathTracer/include/Point.h \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/QVector3D \
   /opt/homebrew/Cellar/qt@5/5.15.3/lib/QtGui.framework/Headers/qvector3d.h \
   /opt/homebrew/include/QtGui/qtguiglobal.h \
